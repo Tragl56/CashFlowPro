@@ -13,10 +13,11 @@ public class CashflowproApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CashflowproApplication.class, args);
 	}
+
 	@RequestMapping
 	@ResponseBody
 	public String home(){
-		return "Cash Flow Pro";
-
+		return "Cash Flow Pro!";
 	}
+
 }
